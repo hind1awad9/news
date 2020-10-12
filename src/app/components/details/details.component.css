@@ -1,0 +1,367 @@
+.row 
+{
+    margin:0
+}
+.container
+{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+h1
+{
+    font-size: 4em;
+}
+h5
+{
+    color: #B2B2BE;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.author
+{
+    color:#F85743
+}
+hr
+{
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.socialMedia
+{
+    border: 2.5px solid #dad8d8;
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+    height: 365px;
+}
+.totalShare
+{
+    border-bottom: 2.5px solid #dad8d8;
+    padding-top: 1.5em;
+}
+.totalShare .count
+{
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1em;
+}
+.totalShare p 
+{
+    font-size: 2em;
+}
+.socialMediaIcons .text 
+{
+    color: #B2B2BE;
+    font-size: 1.3em;
+}
+.socialMediaIcons i
+{
+    color: #B2B2BE;
+    margin-right: 0.5em;
+    font-size: 1.3em;
+}
+.socialMediaIcons
+{
+    text-align: left;
+   padding: 0.5em;
+    border-bottom: 2.5px solid #dad8d8;
+    padding-left: 1em;
+}
+.socialMediaIcons:last-child
+{
+    border-bottom: none !important;
+}
+
+.rightSec
+{
+    padding-left: 3em;
+    
+}
+.rightSec .imageTop
+{
+    position: relative; 
+    height: 600px;
+}
+.rightSec .imageTop img
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.rightSec .paragrah
+{
+    font-size: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.buttons .likeButton, .buttons .disLikeButton
+{
+    background-color: #1ca458;
+    color: #fff;
+    border: none;
+    height: 40px;
+    margin-right: 1em;
+    border-radius: 3px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 1.1em;
+}
+.buttons i
+{
+    margin-right: 0.5em;
+}
+.buttons .disLikeButton
+{
+    background-color: #EBEBEB;
+    color: #8d8d90;
+    margin-right: 0;
+    
+}
+.comments, .join
+{
+    margin-top: 2em;
+   
+}
+.comments .head, .join .head
+{
+    font-size: 2em;
+    color: #77797d;
+}
+.comments .section
+{
+    border: 1px solid #dad8d8;
+    padding: 2em;
+}
+.comments .socialMediaCom
+{
+    float: left;
+    width: 10%;
+}
+.comments .socialMediaCom img
+{
+    width: 50px;
+}
+.comments .rightSecCom
+{
+    float: left;
+    width: 90%;
+}
+.comments .rightSecCom .textCom
+{
+    font-size: 1.3em;
+}
+.comments .rightSecCom .spanCom
+{
+    font-size: 0.8em;
+    color: #B2B2BE;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+.clear
+{
+    clear: both;
+}
+.nameFeild, .emailFeild
+{
+    
+    outline: none;
+}
+.nameFeild input, .emailFeild input, .textareaFeild textarea
+{
+    border: 2px solid #dad8d8 !important;
+    outline: none;
+    
+}
+.emailFeild input
+{
+    float: left;
+    margin-right: 2em;
+}
+.textDis
+{
+    float: left;
+    margin-top: 1em;
+    color: #B2B2BE;
+    font-size: 1.2em;
+    font-style: italic;
+  
+}
+.textDis p
+{
+    margin-bottom: 0;
+}
+.nameFeild input, .emailFeild input
+{
+    height: 50px;
+    width: 50%;
+}
+form button
+{
+    background-color: #C01E33;
+    border: none;
+    width: 120px;
+    height: 45px;
+    font-weight: bold;
+    outline: none;
+    color: #fff;
+}
+input:focus
+{
+    outline: none !important; 
+}
+input::placeholder, textarea::placeholder
+{
+    font-size: 1.4em;
+    color: #B2B2BE;
+}
+@media only screen and (max-width: 320px)
+{
+    .container-fluid
+    {
+        padding: 0 !important;
+        
+    }
+    .disLikeButton
+    {
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .nameFeild input, .emailFeild input
+{
+    height: 50px;
+    width: 100%;
+}
+.textDis
+{
+    margin: 0 !important;
+}
+    .socialMedia
+    {
+        display: none !important;
+    }
+    h1
+    {
+        font-size: 2em;
+    }
+    .rightSec
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        
+    }
+    .imageTop
+    {
+        height: 300px !important;
+    }
+    .likeButton
+    {
+        margin-bottom: 1em !important;
+        margin-right: 0 !important;
+    }
+    .socialMediaCom
+    {
+        width: 30% !important;
+    }
+    .rightSecCom
+    {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .nameFeild input, .emailFeild input
+{
+    height: 50px;
+    width: 100%;
+}
+.textDis
+{
+    margin: 0 !important;
+}
+    .socialMedia
+    {
+        display: none !important;
+    }
+    h1
+    {
+        font-size: 2em;
+    }
+    .rightSec
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        
+    }
+    .imageTop
+    {
+        height: 300px !important;
+    }
+    .likeButton
+    {
+        margin-bottom: 0 !important;
+        margin-right: 1em !important;
+    }
+    .socialMediaCom
+    {
+        width: 10% !important;
+    }
+    .rightSecCom
+    {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .nameFeild input, .emailFeild input
+    {
+        height: 50px;
+        width: 50%;
+    }
+    .textDis
+    {
+       
+        margin-top: 0.5em !important;
+        
+    }
+        .socialMedia
+        {
+            display: block !important;
+        }
+        h1
+        {
+            font-size: 4em;
+        }
+        .rightSec
+        {
+            padding-left: 3em !important;
+            padding-right: 0 !important;
+            
+        }
+        .imageTop
+        {
+            height: 600px !important;
+        }
+        .likeButton
+        {
+            margin-bottom: 0 !important;
+            margin-right: 1em !important;
+        }
+        .socialMediaCom
+        {
+            width: 10% !important;
+        }
+        .rightSecCom
+        {
+            width: 80% !important;
+        }
+
+}

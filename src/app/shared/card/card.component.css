@@ -1,0 +1,60 @@
+.postCover
+{
+    width: 95%;
+    margin-bottom: 0.5em;
+    background-image: url(../../../assets/images/2.jpg);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.category span
+{
+    text-transform: uppercase;
+    color: #B2B2BE;
+    font-size: .6em;
+    font-weight: bold;
+}
+.author
+{
+    margin-top: 3em;
+  
+}
+.author span
+{
+    color: #DB352C;
+    text-transform: capitalize
+}
+.media i 
+{
+    color: #B2B2BE;
+    
+}
+.media p
+{
+    margin: 0;
+}
+.media span
+{
+    color: black;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+.lastPar span
+{
+    margin-right: 0 !important;
+}
+.media
+{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #dad8d8;
+    border-radius: 3px;
+    align-items: center !important;
+    justify-content: center !important;  
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+.clear
+{
+    clear: both;
+}

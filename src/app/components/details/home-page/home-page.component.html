@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div class="container">
+        <h1>Latest News</h1>
+        <div class="row">
+        <div class="col-lg-8">
+            <div style="width:100%">
+            <div style="width:65%;float: left;">
+            <card [styles]="styles"></card>
+        </div>
+        <div style="width:35%;display: inline-block">
+            <card [styles]="stylesSmall" ></card>
+            <card [styles]="stylesSmall"></card>
+        </div>
+        </div>
+        <div style="width: 100%;">
+            <p style="font-size: 1.7em;">Editors Picks</p>
+            <card [styles]="stylesInline"></card>
+            <hr/>
+            <card [styles]="stylesInline"></card>
+            <hr/>
+            <card [styles]="stylesInline"></card>
+        </div>
+    </div>
+        <div class="col-lg-4">
+            <div style="border:1px solid #dad8d8;padding:1.5em;margin-bottom: 2em;">
+                <p style="color: #C42434; font-size: 1.7em;">Recent Posts</p>
+                <card [styles]="stylesInlineLeft"></card>
+                <hr/>
+                <card [styles]="stylesInlineLeft"></card>
+                <hr/>
+                <card [styles]="stylesInlineLeft"></card>
+                
+            </div>
+            <div style="border:1px solid #dad8d8;padding:1.5em;margin-bottom: 2em;">
+                <p style="color: #C42434; font-size: 1.7em;">5 Most Popular</p>
+                <ol >
+                    <li>is simply dummy text of the printing and typesetting industry.</li>
+                    <li>is simply dummy text of the printing and typesetting industry.</li>
+                    <li>is simply dummy text of the printing and typesetting industry.</li>
+                    <li>is simply dummy text of the printing and typesetting industry.</li>
+                    <li style="border-bottom: none;">is simply dummy text of the printing and typesetting industry.</li>
+
+                </ol>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+h1
+{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-weight: bold;
+}
+ol {
+    counter-reset: number;
+    list-style-type: none;
+    list-style-position: outside;
+    display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  }
+  ol li
+  {
+    display: flex;
+    border-bottom: 1px solid #dad8d8;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+  
+  /* The "\a0" is a space */
+  ol li::before {
+    counter-increment: number;
+    content: counter(number)"\a0";
+    margin-right: 0.5em;
+    color: #C42434;
+    font-size: 1em;
+     }
+ 
